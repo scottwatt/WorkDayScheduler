@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Work Day Scheduler</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/style.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+</head>
+<body>
+     <header class="jumbotron customJumbotron text-light"> 
+        <h1 class="title d-flex justify-content-center ">Work Day Scheduler</h1>
+        <p class="titleDesc d-flex justify-content-center">A daily schedule app for your day!</p>
+        <p id="currentDay d-flex" class="lead"></p>
+    </header>
+
+    <main class="container">
+        <section class="schedule">
+		    <div id="hour0" class="row time-block">
+                <div class="col-md-1 hour">12 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour1" class="row time-block">
+                <div class="col-md-1 hour">1 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour2" class="row time-block">
+                <div class="col-md-1 hour">2 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour3" class="row time-block">
+                <div class="col-md-1 hour">3 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour4" class="row time-block">
+                <div class="col-md-1 hour">4 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour5" class="row time-block">
+                <div class="col-md-1 hour">5 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour6" class="row time-block">
+                <div class="col-md-1 hour">6 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour7" class="row time-block">
+                <div class="col-md-1 hour">7 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour8" class="row time-block">
+                <div class="col-md-1 hour">8 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour9" class="row time-block">
+                <div class="col-md-1 hour">9 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour10" class="row time-block">
+                <div class="col-md-1 hour">10 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour11" class="row time-block">
+                <div class="col-md-1 hour">11 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour12" class="row time-block">
+                <div class="col-md-1 hour">12 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour13" class="row time-block">
+                <div class="col-md-1 hour">1 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour14" class="row time-block">
+                <div class="col-md-1 hour">2 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour15" class="row time-block">
+                <div class="col-md-1 hour">3 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour16" class="row time-block">
+                <div class="col-md-1 hour">4 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour17" class="row time-block">
+                <div class="col-md-1 hour">5 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour18" class="row time-block">
+                <div class="col-md-1 hour">6 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour19" class="row time-block">
+                <div class="col-md-1 hour">7 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour20" class="row time-block">
+                <div class="col-md-1 hour">8 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour21" class="row time-block">
+                <div class="col-md-1 hour">9 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour22" class="row time-block">
+                <div class="col-md-1 hour">10 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour23" class="row time-block">
+                <div class="col-md-1 hour">11 PM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+
+        <section class="schedule">
+		    <div id="hour24" class="row time-block">
+                <div class="col-md-1 hour">12 AM</div>
+                <textarea class="col-md-10 description">
+                </textarea>
+                <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src='./assets/script.js'></script>
+</body>
+</html>
+                

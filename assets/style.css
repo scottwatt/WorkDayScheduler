@@ -1,0 +1,7 @@
+:root {
+    --bgColor: teal;
+}
+
+.customJumbotron {
+    background-color: var(--bgColor);
+}
