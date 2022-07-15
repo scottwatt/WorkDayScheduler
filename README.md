@@ -40,27 +40,31 @@ THEN the saved events persist
 
 ## Work Completed
 
-*Creates a functional timer that ends the quiz at 0
+*Creates columns
 
-*Adds points for correct answers
+*Changes columns classes to represent what time it is
 
-*Deducts time for wrong answers
+*Sets and gets content written in text area in local storage
 
-*Uses the localstorage to store highscores and posts the highest score
+*Adds a gitignore
 
-*Adds on click to start game
+*Creates a date with moment()
 
-*Uses a for loop to generate choice buttons
+*Uses setInterval() to make date and time increase
 
-*Adds an object of questions the quiz will pull from
+*Adds reset button to remove content
 
 
 ## Deployed Site
 
 The deployed site hosted by GitHub.
-
+https://scottwatt.github.io/WorkDayScheduler/
 
 
 ## Screenshot
 
 ### Full page
+![screenshot](./assets/images/Display.png)
+
+### Text
+![screenshot](./assets/images/Text.png)
