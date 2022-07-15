@@ -9,12 +9,13 @@
     <link rel='stylesheet' type='text/css' media='screen' href='./assets/style.css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">    
 </head>
 <body>
      <header class="jumbotron customJumbotron text-light"> 
         <h1 class="title d-flex justify-content-center ">Work Day Scheduler</h1>
         <p class="titleDesc d-flex justify-content-center">A daily schedule app for your day!</p>
-        <p id="currentDay d-flex" class="lead"></p>
+        <p id="currentTime" class="d-flex justify-content-center lead">0</p>
     </header>
 
     <main class="container">
@@ -244,6 +245,7 @@
         </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src='./assets/script.js'></script>
 </body>
 </html>
