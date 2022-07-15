@@ -37,9 +37,11 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: #9fbb1f;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border-top: 2px dashed #000000;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
   }
   
   .past {
